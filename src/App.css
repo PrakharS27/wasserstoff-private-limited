@@ -1,38 +1,51 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Sales-Figures */
+.barchart {
+  height: 53px !important;
+  width: 80%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background: #ffff;
+  position: absolute;
+  /* bottom: 3rem; */
+  left: 10%;
+  border-radius: 10px;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .sales-figer {
+    width: 15%;
+    text-align: center;
   }
-  to {
-    transform: rotate(360deg);
+  .graph {
+    position: relative;
   }
-}
+    .underline {
+      position: absolute;
+      bottom: 4px;
+      height: 5px;
+      width: 100%;
+      background: linear-gradient(90deg, #ffa63f 20%, #ff708b 70%, #8676ff 30%);
+    }
+  
+
+
+
+/* {footer} */
+
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+  }
+
+  .bottom-container{
+    background-color: #3f407c;
+    padding: 50px 0 20px;
+      color: #e4f7f3;
+      margin: 0;
+      bottom: 0;
+      width: 100%;
+      position:fixed;
+      text-align: center;
+      font-family: 'Merriweather', serif;
+  }
+
+
+  
