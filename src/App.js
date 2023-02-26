@@ -20,7 +20,7 @@ const App = () => {
           <Route exact path="Dashboard" element={Dashboard } />
           <Route exact path="Analytics" element={Analytics} />
       </Routes>
-      <Footer />
+      {/* <Footer /> */}
       </BrowserRouter>
       
       </div>

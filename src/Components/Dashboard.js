@@ -1,7 +1,14 @@
-import React from 'react'
-
-export default function Dashboard() {
+import React from 'react';
+import Designfaster from './Designfaster';
+import BubblesGraph from './BubblesGraph';
+const Dashboard = () => {
+  // Dashboard or 3rd page 
   return (
-    <div>Dashboard</div>
+    <div className='dashboard'>
+      {/* <Designfaster/>
+      <BubblesGraph/> */}
+    </div>
   )
 }
+
+export default Dashboard

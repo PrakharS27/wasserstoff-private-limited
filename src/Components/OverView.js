@@ -1,7 +1,14 @@
 import React from 'react'
-
-export default function OverView() {
+import BubbleChart from './BubbleChart'
+import Home from './Home'
+const OverView = () => {
+  // overview page or 2nd page 
   return (
-    <div>OverView</div>
+    <div className='overview'>
+      <BubbleChart/>
+      <Home/>
+    </div>
   )
 }
+
+export default OverView
