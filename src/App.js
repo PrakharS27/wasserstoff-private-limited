@@ -5,8 +5,10 @@ import OverView from "./Components/OverView";
 import Dashboard from "./Components/Dashboard";
 import Analytics from "./Components/Analytics";
 import {Routes,Route, BrowserRouter } from "react-router-dom";
+import "./Style.scss";
 import './App.css';
 import Footer from "./Components/Footer";
+
 
 const App = () => {
   return (
@@ -16,9 +18,9 @@ const App = () => {
    <NavBar />
 <Routes>
           <Route exact path="/" element={<Home />} />
-          <Route exact path="OverView" element={OverView } />
-          <Route exact path="Dashboard" element={Dashboard } />
-          <Route exact path="Analytics" element={Analytics} />
+          <Route exact path="OverView" element={<OverView />} />
+          <Route exact path="Dashboard" element={<Dashboard />} />
+          <Route exact path="Analytics" element={<Analytics />} />
       </Routes>
       <Footer />
       </BrowserRouter>
