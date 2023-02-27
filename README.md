@@ -1,5 +1,7 @@
 Title of the project- WASSERSTOFF PRIVATE LIMITED.
 
+public hosted link- https://prakharwasserstoff.netlify.app/
+
 Technology stack/libraries used-
 
     "dependencies": {
@@ -24,4 +26,4 @@ Technology stack/libraries used-
 
     Steps to run/build the project- run command (npm run build) & deploy manual build folder on Netlify.
 
-    public hosted link- https://prakharwasserstoff.netlify.app/
+    
