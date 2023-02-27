@@ -1,17 +1,14 @@
 import React from 'react'
 import { RiCopperDiamondLine } from "react-icons/ri";
 const Designfaster = () => {
-  // design factor- total earning and travel presentation / bussiness
+  
   return (
     <div className="designfaster">
-    {/* title  */}
       <p className="headingDesign">Design Faster</p>
-      {/* earning circle earning  */}
       <div className="cirle-earning">
         <div className="circles item-center">
           <div className="innercircle item-center">
             <div className="innermostcircle item-center">
-            {/* react icon  */}
               <RiCopperDiamondLine size="30" color="#8676FF" />
             </div>
           </div>

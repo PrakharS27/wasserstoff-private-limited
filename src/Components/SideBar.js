@@ -3,7 +3,6 @@ import { BiTrendingUp, BiCrown, BiBarChartAlt2 } from "react-icons/bi";
 import ActiveNewUser from "./ActiveNewUser";
 import Distributes from "./Distributes";
 const SideBar = () => {
-  // sidebar for all users analize with distribution 
   return (
     <div className="sidebar">
       <div className="div1 div5">
@@ -13,7 +12,6 @@ const SideBar = () => {
         <p className="total">2,431,340</p>
       </div>
       <div className="distributes">
-      {/* ----distributes components--- */}
         <Distributes
           title="Total Earning"
           count="540,549"
@@ -44,7 +42,6 @@ const SideBar = () => {
           icon={<BiBarChartAlt2 size="25" color="white" />}
         />
       </div>
- {/* users and new users--- activeNewUser components*/}
       <div className="percentage-circle">
         <ActiveNewUser title="92,980" color="blue" user="Active Users" percentage="27%" />
         <ActiveNewUser title="22,652" color="green" user="New Users" percentage="67%" />

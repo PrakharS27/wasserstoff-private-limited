@@ -1,9 +1,8 @@
 import React from "react";
 const BubblesGraph = () => {
-  // bubble graph for 3rd page to shows investments and benifits 
   return (
     <div className="bubbles item-center">
-    {/* time stamps  */}
+
       <div className="time-period">
         <span>1W</span>
         <span>1M</span>
@@ -11,7 +10,7 @@ const BubblesGraph = () => {
         <span>1Y</span>
         <span>All</span>
       </div>
-      {/* bubbles  */}
+  
       <div className="all-bubles item-center">
         <div className="pink first">
           <p>Investment</p>

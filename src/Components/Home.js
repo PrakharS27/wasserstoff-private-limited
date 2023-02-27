@@ -1,30 +1,22 @@
 import React from 'react'
-
 import Sidebar from './SideBar'
 import  SalesFigures  from './SalesFigures'
-
-
 import WorldMap from './WorldMap';
-// import Sidebar from './Sidebar';
+
 const Home = () => {
-  // Home Section 
   return (
     <>
     <div className=''>
     <div>
     <Sidebar />
     </div>
-    
-      <div className='worldmap w-76 h-100'>
+    <div className='worldmap w-76 h-100'>
       <WorldMap />
       </div>
-      
       </div>
       <div>
       <SalesFigures />
       </div>
-      
-    
     </>
   );
 }

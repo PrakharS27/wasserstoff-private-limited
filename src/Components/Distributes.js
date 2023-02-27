@@ -1,7 +1,6 @@
 import React from "react";
 
 const Distributes = (props) => {
-  // earning sales  and purchases 
   return (
     <div className="div2">
       <div className="totalearnicon" style={{backgroundColor:`${props.bg}`}}>
